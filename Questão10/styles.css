@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.downloads {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.downloads a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
